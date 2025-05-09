@@ -1,0 +1,27 @@
+/*in this file we will learn about typescript usecase for calling function objects*/
+
+let username="@janaharajan";
+let password="password";
+let phonenumber=333;
+
+function instacred(phonenumber,username){
+    console.log(`your username is ${username} and phonenumber is ${phonenumber}`)
+};
+instacred(username,phonenumber)
+/* here we intentionalyy made an error we are passing argument in wrong order even though argument is in wrong order we dont get an error but misplaced output 
+Output
+your username is 333 and phonenumber is @janahaharajan
+
+
+*/
+
+
+let username="@janaharajan";
+let password="password@1234";
+let phonenumber=333;
+
+function instacred({username,phonenumber}:{username:string,phonenumber:number}){
+    console.log(`your username is ${username} and phonenumber is ${phonenumber}`)
+};
+instacred({username,phonenumber})
+/*here we we mentioned the type of paramenter inside function defenition so it will genereate an run time error this is the main usecase of typescript*/
