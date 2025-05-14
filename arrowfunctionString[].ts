@@ -1,7 +1,7 @@
 
 
 
-let indianAllycountries: string[] = ["russia", "japan", "france", "italy"]
+let indianAllycountries: string[] = ["russia", "japan", "france", "italy"];
 
 
 
