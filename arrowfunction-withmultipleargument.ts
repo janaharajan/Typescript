@@ -19,7 +19,7 @@ let emp1: { employeename: string, employeeage: number, somebol: boolean } = {
 let myfunc = () => {
 
 
-    console.log(emp1)
+    console.log(emp1);
 
 
 }
